@@ -13,17 +13,7 @@ namespace Calc
             int b = int.Parse(textBox2.Text);
             textBox3.Text = (a+b).ToString();
         }
-
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
+                
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
             char number = e.KeyChar;
